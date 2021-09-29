@@ -1,0 +1,2 @@
+window.addEventListener("load",function(){window.location.search.match(/[\&\?]a\=true/)&&document.querySelectorAll('a[href^="/"]').forEach(function(e){-1!==e.href.indexOf("?")?e.href+="&a=true":e.href+="?a=true"});var e="shadow",a=document.getElementById("rdNavBar");a&&window.addEventListener("scroll",function(){10<window.scrollY?a.classList.add(e):a.classList.remove(e)},{passive:!0})});
+//# sourceMappingURL=maps/bundles/new-design-utilities.js.map?v=m2dpc885gjf

@@ -1,0 +1,2 @@
+TESTDOME=TESTDOME||{},TESTDOME.certificateDetailsBundleLoaded=!0,$(function(){$("#Verify").click(function(){$("#VerifyEmailForm").submit()}),$("#LinkedInShare").click(function(e){e.preventDefault(),$("#ShowLinkedInModal").modal({backdrop:!0,show:!0})}),$("a.copy").click(function(e){e.preventDefault()});new Clipboard("a.copy",{container:document.getElementById("ShowLinkedInModal"),target:function(e){return e.previousElementSibling}})});
+//# sourceMappingURL=maps/bundles/certificate-details.js.map?v=cep2f8g303cg
